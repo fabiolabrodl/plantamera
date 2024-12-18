@@ -1,0 +1,4 @@
+{
+  "name": "@plantamera/home-page",
+  "main": "./index.ts"
+}
