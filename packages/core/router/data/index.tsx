@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { HomePage } from '@plantamera/home-page/ui';
+import { SignupPage } from '@plantamera/signup-page';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <HomePage />,
+    element: <SignupPage />,
   },
   //   {
   //     path: '/about',

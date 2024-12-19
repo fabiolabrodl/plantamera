@@ -1,0 +1,25 @@
+@use '@plantamera/styles' as *;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.signupWrapper {
+  background-color: white;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  gap: 70px;
+  padding: 2rem;
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-family: 'Open Sans', serif;
+      font-size: 60px;
+      font-weight: 600;
+      color: #055647;
+    }
+  }
+}

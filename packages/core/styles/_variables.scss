@@ -1,0 +1,87 @@
+// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+// :root {
+//   font-family: 'Quicksand', sans-serif;
+// }
+
+// $baseline: 16px;
+
+// /* COLORS */
+// $background-color: #19747e;
+// $textColor: #e2e2e2;
+// $titleColor: #d1e8e2;
+// $secondaryColor: #a9d6e5;
+// $primaryTextColor: #17252a;
+// $primaryColor: #3aafa9;
+// $headerColor: #feffff;
+// // $secondaryColor: #2b7a78;
+
+// /* MARGINS, PADDINGS, GAPS */
+// $padding-small: calc($baseline);
+// $padding-medium: calc($baseline * 1.5);
+// $padding-large: calc($baseline * 2);
+
+// $width-full: 100%;
+
+// /* EFFECTS */
+// $box-shaddow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+// // $box-shaddow: 0 4px 8px 0 rgb(169 214 229 / 20%);
+
+// $box-shaddow-large: 0px 4px 8px 0px rgb(0 0 0 / 60%);
+
+// /* RESPONSIVE */
+// $mobileBreakpoint: 30rem;
+// $tabletBreakpoint: 40rem;
+// $desktopBreakpoint: 60rem;
+
+// /* TYPOGRAPHY */
+// $font-weight-bold: 700;
+// $font-weight-semi-bold: 600;
+// $font-weight-medium: 500;
+// $font-weight-regular: 400;
+// $font-weight-light: 300;
+
+// @mixin font-size-huge {
+//   font-size: calc($baseline * 2.5);
+//   line-height: 120%;
+// }
+
+// @mixin font-size-large {
+//   font-size: calc($baseline * 1.8);
+//   line-height: 120%;
+// }
+
+// @mixin font-size-medium {
+//   font-size: calc($baseline * 1.5);
+//   line-height: 120%;
+// }
+
+// @mixin font-size-regular {
+//   font-size: calc($baseline * 1.3);
+//   line-height: 120%;
+// }
+
+// @mixin font-size-small {
+//   font-size: $baseline;
+//   line-height: 120%;
+// }
+
+// @mixin font-size-tiny {
+//   font-size: calc($baseline * 0.8);
+//   line-height: 120%;
+// }
+
+// /* HELPERS */
+// @mixin reset {
+//   box-sizing: border-box;
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+//   text-decoration: none;
+// }
+
+// @mixin flex-column-2 {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 2rem;
+// }
